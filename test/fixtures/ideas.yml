@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: ideas
+#
+#  id              :integer          not null, primary key
+#  posting_user_id :integer          not null
+#  title           :string(255)      not null
+#  description     :text             not null
+#  created_at      :datetime
+#  updated_at      :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  posting_user: 1
+  title: MyString
+  description: MyText
+
+two:
+  posting_user: 1
+  title: MyString
+  description: MyText
