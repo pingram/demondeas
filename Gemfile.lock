@@ -33,6 +33,8 @@ GEM
       activerecord (>= 2.3.0)
       rake (>= 0.8.7)
     arel (4.0.2)
+    autoprefixer-rails (3.0.0.20140821)
+      execjs
     backbone-on-rails (1.1.1.0)
       actionmailer
       actionpack
@@ -48,6 +50,8 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.1.1.1)
+      sass (~> 3.2)
     builder (3.1.4)
     coderay (1.1.0)
     coffee-rails (4.0.1)
@@ -161,9 +165,11 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  autoprefixer-rails
   backbone-on-rails
   better_errors
   binding_of_caller
+  bootstrap-sass
   coffee-rails (~> 4.0.0)
   debugger
   devise
@@ -172,6 +178,7 @@ DEPENDENCIES
   rails (= 4.0.4)
   sass-rails (~> 4.0.2)
   sdoc
+  sprockets-rails
   sqlite3
   therubyracer
   turbolinks

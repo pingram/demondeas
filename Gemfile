@@ -9,6 +9,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'devise'
 gem 'annotate'
 gem 'backbone-on-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
